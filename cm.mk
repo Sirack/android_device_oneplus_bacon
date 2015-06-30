@@ -52,3 +52,5 @@ else
 # Signed bacon gets a special boot animation because it's special.
 PRODUCT_BOOTANIMATION := device/oneplus/bacon/bootanimation.zip
 endif
+
+$(call inherit-product, device/asus/flo/better-device-vendor.mk)
